@@ -1,0 +1,1631 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+@media screen and (min-width:319.5px) and (max-width:468.5px) {
+    
+header{
+    /* background-color: aqua; */
+    /* border: 2px solid red; */
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 4vw 5vw;
+    position: absolute;
+}
+.help{
+    display: none;
+}
+.fa-solid{
+    display: none;
+}
+header .brand-logo{
+    height: 60px;
+    width:150px;
+    /* border:2px solid red; */
+    background-image: url("https://img2.shaadi.com/assests/2021/images/Matrimony-Service-by-Shaadi.com.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav .login{
+    position: relative;
+    top:20px;
+}
+nav .login a{
+    text-decoration: none;
+    color:white;
+}
+nav ul{   
+    display: none; 
+    /* background-color: rgb(0, 72, 255); */
+    /* border:2px solid blue; */
+    color:white;
+    font-size:14px;
+    position: absolute;
+    top:60px;
+    right:7px;
+}
+nav .login:hover + ul{
+    display: block;
+}
+.homepage{
+    width:100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.471),rgba(0, 0, 0, 0.259)),url("https://img2.shaadi.com/assests/2021/images/pressure-hatao-banner-v2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 220px;
+    
+}
+.homepage h1{
+    color:white;
+    width:100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.homepage article{
+    /* border:2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:20px;
+    color:white;
+    padding:7vw 5vw;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.208);
+
+}
+.homepage article .form{
+    /* border:1px solid yellow; */
+    width:46%;
+    padding-top:1vw ;
+}
+.homepage article .form select{
+    width:100%;
+    height: 40px;
+    outline: none;
+    border:none;
+    border-radius: 3px;
+    padding:4px;
+    color:grey;
+
+}
+.homepage article .form2 select{
+    width:40%;
+
+}
+.homepage article button{
+    width:100%;
+    height: 40px;
+    background-color: #53b9d2;
+    color:white;
+    outline: none;
+    border:none;
+    border-radius: 3px;
+}
+.homepage article button:hover{
+    background-color: #408fa3;
+}
+/* *************************for second page************************************ */
+.second-page{
+    width: 100%;
+    /* width: px; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.second-page .text1{
+      color: #ff5a60;;
+}
+
+.subimg{
+    height: 60px;
+    width:150px;
+    background-image: url("	https://img2.shaadi.com/assests/2023/images/shaadiLiveLogo.png");
+    /* background-color: aqua; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+
+}
+.text2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text2 p{
+    height: fit-content;
+    width: fit-content;
+}
+.imge2{
+    height: 284px;
+    width:294px;
+    background-image: url("https://img2.shaadi.com/assests/2023/images/shaadiLiveImage.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text3 p{
+    color: gray;
+    margin-top: 10px;
+}
+/* *********************card************************* */
+
+.display-none{
+    display: none;
+}
+.text1{
+    color: #ff5a60;
+    width: 100%;
+    
+    /* align-items:center;\ */
+    text-align: center;
+    margin-top: 30px;
+    font-size: x-large;
+    
+}
+p{
+    width: 100%;
+    /* align-items:center;\ */
+    text-align: center;
+    margin-top: 20px; 
+}
+
+.cardimg{
+    height: 254px;
+    width: 235px;
+    background-image: url("	https://img2.shaadi.com/assests/2020/images/home-icon-sprite.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 50%;
+}
+.card-area{
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size:x-large;
+    font-weight: bold;
+    color: gray;
+
+}
+.sign{
+    margin-top: 10px;
+}
+.text5 p{
+    margin-top: 20px;
+    font-weight: normal;
+    text-align: justify;
+    font-size:medium;
+}
+.dir1{
+    background-position: center -527px;
+}
+.dir2{
+    background-position: center -1042px;
+}
+
+.people-text{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.photo{
+    height: 284px;
+    width:294px;
+    
+
+    background-image: url("https://img.shaadi.com/success-story/HSH01347836-2SH55242936-big.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.about{
+    text-align: justify;
+    color: grey;
+    
+}
+.p1img:hover{
+     /* border: 2px solid black; 
+         */
+         height: 286px;
+    width:297px;
+     box-shadow: 2px 2px 2px 3px black;
+}
+.start-btn{
+    height: 150px;
+    width: 100%;
+    background-color: #ff5a60;
+}
+.color1 p{
+    color: white;
+}
+.btn button{
+    margin-left: 81px;
+    border-style: none;
+    border-radius: 5px;
+    height: 35px;
+    width: 161px;
+    background-color: #ff5a60;
+    color: white;
+    border: 3px solid white;
+    word-spacing: 10px;
+}
+
+.btn button:hover{
+    background-color: white;
+    color: #ff5a60;
+}
+.list ul{
+    display: flex;
+    /* font-style: non; */
+}
+ul li::marker{
+ content: "|";
+ display: inline;
+
+
+}
+
+ul li{
+   padding: 6px;
+}
+.seprator{
+    margin-top: 5px;
+    height: 1px;
+    width: 100%;
+    background-color: rgb(138, 131, 131);
+}
+.size{
+    height: 20px;
+    width: 100px;
+    background-color: bisque;
+    background-image: url("");
+    border-radius: 5px;
+
+}
+.brand{
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 30%;
+    gap: 10px;
+    /* justify-content: space-between; */
+}
+.google{
+    background-image: url("	https://img2.shaadi.com/assests/2021/images/Matrimony-App-Shaadi.com-Playstore.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.Apple{
+    background-image: url("https://img2.shaadi.com/assests/2021/images/Matrimony-App-Shaadi.com-Appstore.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* margin-right: 20px; */
+}
+.color2{
+    background-color: rgba(201, 181, 181, 0.87);
+}
+
+.color3{
+    background-color: rgb(236, 232, 232);
+}
+
+/* **********************************appdetial**************************************************** */
+.img-app{
+    
+    width: 100%;
+    height: 100px;
+    /* background-color: aqua; */
+    background-image: url('	https://img2.shaadi.com/assests/2018/images/sprite-homepg-v5.png');
+    background-repeat: no-repeat;
+    background-position:50% -244px ;
+}
+/* .text-item{
+display: flex;
+gap: 20px;
+} */
+.text-item p{
+    line-height: 1.5;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+}
+.padding{
+    margin-top: 20px;
+}
+.sub-logo{
+    display: flex;
+    flex-direction: row;
+    /* background-color: aqua; */
+}
+.sub-logo p{
+    /* margin-bottom: 50%; */
+    margin-top: 38px;
+}
+.last-logo{
+    margin-top: 15px;
+    height: 80px;
+    width: 80px; 
+    
+    background-image: url("	https://img2.shaadi.com/assests/2018/images/sprite-homepg-v5.png");
+    background-repeat: no-repeat;
+    background-position: -21px -774px;
+    background-size: cover;
+    /* background-color: #ff5a60; */
+    /* background-clip: content-box; */
+    background-size: 91px;
+    /* border-radius: 50%; */
+}
+.sub1{
+    background-position: -22px -865px;
+    background-size: 91px;
+}
+.sub2{
+    background-position: -21px -973px;
+    background-size: 91px; 
+}
+.textpart{
+    margin: auto;
+    height: 50px;
+    width: fit-content;
+    background-color: #53b9d2;
+
+}
+.text{
+    margin-top: 20px;
+    font-size: larger;
+}
+}
+
+@media screen and (min-width:469px) and (max-width:768px) {
+header{
+        /* background-color: aqua; */
+        /* border: 2px solid red; */
+        width:100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 4vw 5vw;
+        position: absolute;
+        
+    }
+header .brand-logo{
+        height: 60px;
+        width:150px;
+        /* border:2px solid red; */
+        background-image: url("https://img2.shaadi.com/assests/2021/images/Matrimony-Service-by-Shaadi.com.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+header nav{
+        /* border:2px solid yellow; */
+    }
+nav .login{
+        position: relative;
+        top:20px;
+    }
+nav .login a{
+        text-decoration: none;
+        color:white;
+    }
+nav ul{   
+        display: none; 
+        /* background-color: rgb(0, 72, 255); */
+        /* border:2px solid blue; */
+        color:white;
+        font-size:14px;
+        position: absolute;
+        top:60px;
+        right:7px;
+    }
+nav .login:hover + ul{
+        display: block;
+    }
+.homepage{
+        width:100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.471),rgba(0, 0, 0, 0.259)),url("https://img2.shaadi.com/assests/2021/images/pressure-hatao-banner-v2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding-top: 220px;
+        
+    }
+.homepage h1{
+        color:white;
+        width:100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+.homepage article{
+        /* border:2px solid red; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap:20px;
+        color:white;
+        padding:7vw 5vw;
+        font-size: 14px;
+        background-color: rgba(0, 0, 0, 0.208);
+    
+    }
+.homepage article .form{
+        /* border:1px solid yellow; */
+        width:46%;
+        padding-top:1vw ;
+    }
+.homepage article .form select{
+        width:100%;
+        height: 40px;
+        outline: none;
+        border:none;
+        border-radius: 3px;
+        padding:4px;
+        color:grey;
+    
+    }
+.homepage article .form2 select{
+        width:40%;
+    
+    }
+.homepage article button{
+        width:100%;
+        height: 40px;
+        background-color: #53b9d2;
+        color:white;
+        outline: none;
+        border:none;
+        border-radius: 3px;
+    }
+.homepage article button:hover{
+        background-color: #408fa3;
+    }
+    /* *************************for second page************************************ */
+.second-page{
+        width: 100%;
+        /* width: px; */
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+    }
+.second-page .text1{
+          color: #ff5a60;;
+    }
+    
+.subimg{
+        height: 60px;
+        width:150px;
+        background-image: url("	https://img2.shaadi.com/assests/2023/images/shaadiLiveLogo.png");
+        /* background-color: aqua; */
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:contain;
+    
+    }
+.text2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+.text2 p{
+        height: fit-content;
+        width: fit-content;
+    }
+.imge2{
+        height: 284px;
+        width:294px;
+        background-image: url("https://img2.shaadi.com/assests/2023/images/shaadiLiveImage.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+.text3 p{
+        color: gray;
+        margin-top: 10px;
+    }
+/* *********************card************************* */
+    
+    /* p{
+        color: #ff5a60;
+        width: 100%;
+        /* align-items:center;\ */
+        /* text-align: center;
+        margin-top: 20px; */
+    /* } */
+.text1{ 
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+.card-container{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        /* align-items: center; */
+        /* margin-left: 5px; */
+
+    }
+      
+.cardimg{
+        /* display: none; */
+        height: 254px;
+        width: 235px;
+        background-image: url("	https://img2.shaadi.com/assests/2020/images/home-icon-sprite.png");
+        background-repeat: no-repeat;
+        background-size:cover;
+        border-radius: 50%;
+    }
+.card-area{
+        margin-left: 20px;
+        /* display: flex; */
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        font-size:x-large;
+        font-weight: bold;
+        color: gray;
+    
+    }
+.sign{
+        margin-top: 10px;
+    }
+.text5 p{
+        margin-top: 20px;
+        font-weight: normal;
+        text-align: justify;
+        font-size:medium;
+    }
+.dir1{
+        background-position: center -527px;
+    }
+.dir2{
+        background-position: center -1042px;
+    }
+    
+.people-text{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+.photo{
+        height: 284px;
+        width:294px;
+        
+    
+        background-image: url("https://img.shaadi.com/success-story/HSH01347836-2SH55242936-big.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        
+    }
+.display-none{
+        display: none}
+.about{
+        text-align: justify;
+        color: grey;
+        
+    }
+.p1img:hover{
+         /* border: 2px solid black; 
+             */
+             height: 286px;
+             width:297px;
+         box-shadow: 2px 2px 2px 3px black;
+    }
+.start-btn{
+        height: 150px;
+        width: 100%;
+        background-color: #ff5a60;
+    }
+.color1 p{
+        color: white;
+    }
+.btn button{
+        border-style: none;
+        border-radius: 5px;
+        height: 35px;
+        width: 161px;
+        background-color: #ff5a60;
+        color: white;
+        border: 3px solid white;
+        word-spacing: 10px;
+}
+.btn button{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+    
+.btn button:hover{
+        background-color: white;
+        color: #ff5a60;
+    }
+ 
+.list ul{
+        /* display: flex; */
+        /* font-style: non; */
+        gap: 50px;
+    }
+ul li::marker{
+     content: "|";
+     display: inline;
+    
+    
+    }
+    
+.row{
+    display: flex;  
+    gap: 50px;
+    justify-content: space-around;
+    
+} 
+.more{
+    display: none;
+}
+.seprator{
+    display: none;
+}
+    
+ul li{
+       padding: 6px;
+    }
+.seprator{
+        margin-top: 5px;
+        height: 1px;
+        width: 100%;
+        background-color: rgb(138, 131, 131);
+    }
+.size{
+        height: 20px;
+        width: 100px;
+        background-color: bisque;
+        background-image: url("");
+        border-radius: 5px;
+    
+    }
+.brand{
+        display: flex;
+        justify-content: space-between;
+    }
+.google{
+        background-image: url("	https://img2.shaadi.com/assests/2021/images/Matrimony-App-Shaadi.com-Playstore.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        
+    }
+.Apple{
+        background-image: url("https://img2.shaadi.com/assests/2021/images/Matrimony-App-Shaadi.com-Appstore.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-right: 20px;
+        }
+.color2{
+        background-color: rgba(201, 181, 181, 0.87);
+}
+    
+.color3{
+        background-color: rgb(236, 232, 232);
+}
+
+    
+.img-app{
+    
+    width: 100%;
+    height: 100px;
+    /* background-color: aqua; */
+    background-image: url('	https://img2.shaadi.com/assests/2018/images/sprite-homepg-v5.png');
+    background-repeat: no-repeat;
+    background-position:50% -244px ;
+}
+/* .text-item{
+display: flex;
+gap: 20px;
+} */
+.text-item p{
+    line-height: 1.5;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    padding: 30px;
+}
+.padding{
+    margin-top: 20px;
+}
+.sub-logo{
+    display: flex;
+    /* flex-direction: row; */
+    /* background-color: aqua; */
+    padding: 20px;
+}
+.sub-logo p{
+    /* margin-bottom: 50%; */
+    margin-top: 38px;
+}
+.last-logo{
+    margin-top: 15px;
+    height: 80px;
+    width: 80px; 
+    
+    background-image: url("	https://img2.shaadi.com/assests/2018/images/sprite-homepg-v5.png");
+    background-repeat: no-repeat;
+    background-position: -21px -774px;
+    background-size: cover;
+    /* background-color: #ff5a60; */
+    /* background-clip: content-box; */
+    background-size: 91px;
+    /* border-radius: 50%; */
+}
+.sub1{
+    background-position: -22px -865px;
+    background-size: 91px;
+}
+.sub2{
+    background-position: -21px -973px;
+    background-size: 91px; 
+}
+.sub-logo1{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.textpart{
+    margin-top: 20px;
+    margin: auto;
+    height: 50px;
+    width: fit-content;
+    background-color: #53b9d2;
+
+}
+.text{
+    margin-top: 20px;
+    font-size: larger;
+}
+    
+}
+
+
+@media screen and (min-width:769px) and (max-width:1250px) {
+
+header{
+    /* background-color: aqua; */
+    /* border: 2px solid red; */
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 4vw 5vw;
+    position: absolute;
+}
+header .brand-logo{
+    height: 60px;
+    width:150px;
+    /* border:2px solid red; */
+    background-image: url("https://img2.shaadi.com/assests/2021/images/Matrimony-Service-by-Shaadi.com.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header nav{
+    /* border:2px solid yellow; */
+}
+nav .login{
+    position: relative;
+    top:20px;
+}
+nav .login a{
+    text-decoration: none;
+    color:white;
+}
+nav ul{   
+    display: none; 
+    /* background-color: rgb(0, 72, 255); */
+    /* border:2px solid blue; */
+    color:white;
+    font-size:14px;
+    position: absolute;
+    top:60px;
+    right:7px;
+}
+nav .login:hover + ul{
+    display: block;
+}
+.homepage{
+    width:100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.471),rgba(0, 0, 0, 0.259)),url("https://img2.shaadi.com/assests/2021/images/pressure-hatao-banner-v2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 220px;
+    
+}
+.homepage h1{
+    color:white;
+    width:100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.homepage article{
+    /* border:2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:20px;
+    color:white;
+    padding:7vw 5vw;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.208);
+
+}
+.homepage article .form{
+    /* border:1px solid yellow; */
+    width:46%;
+    padding-top:1vw ;
+}
+.homepage article .form select{
+    width:100%;
+    height: 40px;
+    outline: none;
+    border:none;
+    border-radius: 3px;
+    padding:4px;
+    color:grey;
+
+}
+.homepage article .form2 select{
+    width:40%;
+
+}
+.homepage article button{
+    width:100%;
+    height: 40px;
+    background-color: #53b9d2;
+    color:white;
+    outline: none;
+    border:none;
+    border-radius: 3px;
+}
+.homepage article button:hover{
+    background-color: #408fa3;
+}
+/* *************************for second page************************************ */
+.second-page{
+    width: 100%;
+    /* width: px; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    
+    
+}
+.seon-flex{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 40px;
+}
+.second-page .text1{
+    margin-top: 10px;
+      color: #ff5a60;;
+}
+
+.subimg{
+    height: 60px;
+    width:150px;
+    background-image: url("	https://img2.shaadi.com/assests/2023/images/shaadiLiveLogo.png");
+    /* background-color: aqua; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+
+}
+.text2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text2 p{
+    height: fit-content;
+    width: fit-content;
+}
+.imge2{
+    height: 284px;
+    width:294px;
+    background-image: url("https://img2.shaadi.com/assests/2023/images/shaadiLiveImage.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text3 p{
+    color: gray;
+    margin-top: 10px;
+}
+/* *********************card************************* */
+
+p{
+    color: #1e1213;
+    width: 100%;
+    /* align-items:center;\ */
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardimg{
+    height: 254px;
+    width: 235px;
+    background-image: url("	https://img2.shaadi.com/assests/2020/images/home-icon-sprite.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 50%;
+}
+.card-area{
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size:x-large;
+    font-weight: bold;
+    color: gray;
+
+}
+.sign{
+    margin-top: 10px;
+}
+.text5 p{
+    margin-top: 20px;
+    font-weight: normal;
+    text-align: justify;
+    font-size:medium;
+}
+.dir1{
+    background-position: center -527px;
+}
+.dir2{
+    background-position: center -1042px;
+}
+
+.people-text{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.photo{
+    height: 284px;
+    width:294px;
+
+    background-image: url("https://img.shaadi.com/success-story/HSH01347836-2SH55242936-big.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.about{
+    text-align: justify;
+    color: grey;
+    
+}
+.p1img:hover{
+        /* border: 2px solid black;  */
+         
+         height: 286px;
+         width:297px;
+         box-shadow: 1px 1px 0px 2px rgb(97, 81, 81);
+}
+.start-btn{
+    height: 150px;
+    width: 100%;
+    background-color: #ff5a60;
+}
+.color1 p{
+    color: white;
+}
+.btn button{
+    border-style: none;
+    border-radius: 5px;
+    height: 35px;
+    width: 161px;
+    background-color: #ff5a60;
+    color: white;
+    border: 3px solid white;
+    word-spacing: 10px;
+}
+
+.btn button:hover{
+    background-color: white;
+    color: #ff5a60;
+}
+.list ul{
+    display: flex;
+    /* font-style: non; */
+}
+ul li::marker{
+ content: "|";
+ display: inline;
+
+
+}
+
+ul li{
+   padding: 6px;
+}
+.seprator{
+    margin-top: 5px;
+    height: 1px;
+    width: 100%;
+    background-color: rgb(138, 131, 131);
+}
+.size{
+    height: 20px;
+    width: 100px;
+    background-color: bisque;
+    background-image: url("");
+    border-radius: 5px;
+
+}
+.brand{
+    display: flex;
+    justify-content: space-between;
+}
+.google{
+    background-image: url("	https://img2.shaadi.com/assests/2021/images/Matrimony-App-Shaadi.com-Playstore.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.Apple{
+    background-image: url("https://img2.shaadi.com/assests/2021/images/Matrimony-App-Shaadi.com-Appstore.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 20px;
+}
+.color2{
+    background-color: rgba(201, 181, 181, 0.87);
+}
+
+.color3{
+    background-color: rgb(236, 232, 232);
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    margin: auto;
+    padding-left: 20px;
+}
+
+
+.img-app{
+    
+    width: 100%;
+    height: 100px;
+    /* background-color: aqua; */
+    background-image: url('	https://img2.shaadi.com/assests/2018/images/sprite-homepg-v5.png');
+    background-repeat: no-repeat;
+    background-position:50% -244px ;
+}
+/* .text-item{
+display: flex;
+gap: 20px;
+} */
+.text-item p{
+    line-height: 1.5;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    padding: 30px;
+}
+.padding{
+    margin-top: 20px;
+}
+.sub-logo{
+    display: flex;
+    /* flex-direction: row; */
+    /* background-color: aqua; */
+    padding: 50px;
+}
+.sub-logo p{
+    /* margin-bottom: 50%; */
+    margin-top: 38px;
+}
+.last-logo{
+    margin-top: 15px;
+    height: 80px;
+    width: 80px; 
+    
+    background-image: url("	https://img2.shaadi.com/assests/2018/images/sprite-homepg-v5.png");
+    background-repeat: no-repeat;
+    background-position: -21px -774px;
+    background-size: cover;
+    /* background-color: #ff5a60; */
+    /* background-clip: content-box; */
+    background-size: 91px;
+    /* border-radius: 50%; */
+}
+.sub1{
+    background-position: -22px -865px;
+    background-size: 91px;
+}
+.sub2{
+    background-position: -21px -973px;
+    background-size: 91px; 
+}
+.sub-logo1{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.textpart{
+    margin-top: 20px;
+    margin: auto;
+    height: 50px;
+    width: fit-content;
+    background-color: #53b9d2;
+
+}
+.text{
+    margin-top: 20px;
+    font-size: larger;
+}
+
+} 
+
+@media screen and (min-width:1250px) and (max-width:1571px) {
+    
+
+header{
+    /* background-color: aqua; */
+    /* border: 2px solid red; */
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 4vw 5vw;
+    position: absolute;
+}
+header .brand-logo{
+    height: 60px;
+    width:150px;
+    /* border:2px solid red; */
+    background-image: url("https://img2.shaadi.com/assests/2021/images/Matrimony-Service-by-Shaadi.com.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header nav{
+    /* border:2px solid yellow; */
+}
+nav .login{
+    position: relative;
+    top:20px;
+    padding: 10px;
+   
+    
+}
+.help{
+    margin-left: 10px;
+}
+.help-logo{
+    align-items: center;
+    border-color: white;
+    margin-left: 10px;
+
+    border-width: 2px;
+    border-style: solid;
+  
+    border-radius: 50%;
+    
+}
+nav .login a{
+    text-decoration: none;
+    color:white;
+}
+nav ul{   
+    display: none; 
+    /* background-color: rgb(0, 72, 255); */
+    /* border:2px solid blue; */
+    color:white;
+    font-size:14px;
+    position: absolute;
+    top:60px;
+    right:7px;
+}
+nav .login:hover + ul{
+    /* display: block; */
+}
+.homepage{
+    width:100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.471),rgba(0, 0, 0, 0.259)),url("https://img2.shaadi.com/assests/2021/images/pressure-hatao-banner-v2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 220px;
+    
+}
+.homepage h1{
+    color:white;
+    width:100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.homepage article{
+    /* border:2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:20px;
+    color:white;
+    padding:7vw 5vw;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.208);
+
+}
+.homepage article .form{
+    /* border:1px solid yellow; */
+    width:20%;
+    padding-top:1vw ;
+}
+.homepage article .form select{
+    width:100%;
+    height: 40px;
+    outline: none;
+    border:none;
+    border-radius: 3px;
+    padding:4px;
+    color:grey;
+
+}
+.homepage article .form2 select{
+    width:40%;
+
+}
+.homepage article button{
+    margin-top: 30px;
+    width:13%;
+    height: 40px;
+    background-color: #53b9d2;
+    color:white;
+    outline: none;
+    border:none;
+    border-radius: 3px;
+}
+.homepage article button:hover{
+    background-color: #408fa3;
+}
+/* *************************for second page************************************ */
+.second-page{
+    width: 100%;
+    /* width: px; */
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.seon-flex{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 121px;
+    justify-content: space-between;  
+}
+.row{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 121px;
+    justify-content: space-between;
+}
+.second-page .text1{
+      color: #ff5a60;
+      font-size: xx-large;
+      margin-top: 30px;
+}
+
+.subimg{
+    height: 280px;
+    width:280px;
+    background-image: url("	https://img2.shaadi.com/assests/2023/images/shaadiLiveLogo.png");
+    /* background-color: aqua; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+
+}
+.text2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text2 p{
+    height: fit-content;
+    width: fit-content;
+}
+.imge2{
+    height: 500px;
+    width:500px;
+    background-image: url("https://img2.shaadi.com/assests/2023/images/shaadiLiveImage.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text3 p{
+    color: gray;
+    margin-top: 10px;
+}
+/* *********************card************************* */
+.card-color{
+    background-color: rgb(227, 237, 227);
+}
+.text5 p{
+    color: rgb(84, 79, 79);
+    width: 100%;
+    /* align-items:center;\ */
+    text-align: center;
+    font-size: large;
+    margin-top: 20px;
+}
+.card-container{
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+.cardimg{
+    height: 215px;
+    width: 200px; 
+    background-image: url("	https://img2.shaadi.com/assests/2020/images/home-icon-sprite.png");
+    background-repeat: no-repeat; 
+    background-size:cover;
+    border-radius: 50%; 
+}
+.card-area{
+    display: flex;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    font-size:x-large;
+    font-weight: bold;
+    color: rgb(78, 78, 78);
+
+}
+.sign{
+    margin-top: 10px;
+}
+.text5 p{
+    margin-top: 20px;
+    font-weight: normal;
+    text-align: justify;
+    font-size:medium;
+}
+.dir1{
+    background-position: center -440px;
+}
+.dir2{
+    background-position: center -885px;
+}
+
+.people-text{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.photo{
+    height: 284px;
+    width:294px;
+    
+
+    background-image: url("https://img.shaadi.com/success-story/HSH01347836-2SH55242936-big.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.about{
+    text-align: justify;
+    color: grey;
+    
+}
+.p1img:hover{
+     /* border: 2px solid black; 
+         */
+         height: 286px;
+    width:297px;
+     box-shadow: 2px 2px 2px 3px black;
+}
+.start-btn{
+    height: 150px;
+    width: 100%;
+    background-color: #ff5a60;
+}
+.color1 p{
+    color: white;
+    margin: 30px;
+}
+.btn button{
+    margin-top: 62px;
+    border-style: none;
+    border-radius: 5px;
+    height: 35px;
+    width: 161px;
+    background-color: #ff5a60;
+    color: white;
+    border: 3px solid white;
+    word-spacing: 10px;
+}
+
+
+
+.btn button:hover{
+    background-color: white;
+    color: #ff5a60;
+}
+.list ul{
+    display: flex;
+    /* font-style: non; */
+}
+ul li::marker{
+ content: "|";
+ display: inline;
+
+
+}
+
+ul li{
+   padding: 6px;
+}
+.seprator{
+    margin-top: 5px;
+    height: 1px;
+    width: 100%;
+    background-color: rgb(138, 131, 131);
+}
+.size{
+    height: 100px;
+    width: 200px;
+    /* background-color: bisque; */
+    background-image: url("");
+    border-radius: 5px;
+
+}
+.brand{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    gap: 30px;
+}
+.google{
+    background-image: url("	https://img2.shaadi.com/assests/2021/images/Matrimony-App-Shaadi.com-Playstore.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    
+}
+.Apple{
+    background-image: url("https://img2.shaadi.com/assests/2021/images/Matrimony-App-Shaadi.com-Appstore.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 20px;
+}
+.color2{
+    background-color: rgba(201, 181, 181, 0.87);
+}
+
+.color3{
+    background-color: rgb(236, 232, 232);
+}
+
+.reverse{
+    display: flex;
+    /* flex-direction: ; */
+    gap: 50px;
+}
+
+
+.img-app{
+    
+    width: 100%;
+    height: 100px;
+    /* background-color: aqua; */
+    background-image: url('	https://img2.shaadi.com/assests/2018/images/sprite-homepg-v5.png');
+    background-repeat: no-repeat;
+    background-position:50% -244px ;
+}
+/* .text-item{
+display: flex;
+gap: 20px;
+} */
+.text-item p{
+    line-height: 1.5;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    padding: 30px;
+}
+.padding{
+    margin-top: 20px;
+}
+.sub-logo{
+    display: flex;
+    /* flex-direction: row; */
+    /* background-color: aqua; */
+    padding: 50px;
+}
+.sub-logo p{
+    /* margin-bottom: 50%; */
+    margin-top: 38px;
+}
+.last-logo{
+    margin-top: 15px;
+    height: 80px;
+    width: 80px; 
+    
+    background-image: url("	https://img2.shaadi.com/assests/2018/images/sprite-homepg-v5.png");
+    background-repeat: no-repeat;
+    background-position: -21px -774px;
+    background-size: cover;
+    /* background-color: #ff5a60; */
+    /* background-clip: content-box; */
+    background-size: 91px;
+    /* border-radius: 50%; */
+}
+.sub1{
+    background-position: -22px -865px;
+    background-size: 91px;
+}
+.sub2{
+    background-position: -21px -973px;
+    background-size: 91px; 
+}
+.sub-logo1{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.textpart{
+    margin-top: 20px;
+    margin: auto;
+    height: 50px;
+    width: fit-content;
+    background-color: #53b9d2;
+
+}
+.text{
+    margin-top: 20px;
+    font-size: larger;
+}
+    
+}
+
+    
